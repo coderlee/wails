@@ -102,7 +102,7 @@ Go: `WindowIsNormal(ctx context.Context) bool`<br/> JS: `WindowIsNormal() bool`
 
 ウィンドウの幅と高さを設定します。
 
-Go: `WindowSetSize(ctx context.Context, width int, height int)`<br/> JS: `WindowSetSize(size: Size)`
+Go: `WindowSetSize(ctx context.Context, width int, height int)`<br/> JS: `WindowSetSize(width: number, height: number)`
 
 ### WindowGetSize
 
@@ -116,7 +116,7 @@ Go: `WindowGetSize(ctx context.Context) (width int, height int)`<br/> JS: `Windo
 
 サイズを`0,0`に設定すると、サイズの制約が無効化されます。
 
-Go: `WindowSetMinSize(ctx context.Context, width int, height int)`<br/> JS: `WindowSetMinSize(size: Size)`
+Go: `WindowSetMinSize(ctx context.Context, width int, height int)`<br/> JS: `WindowSetMinSize(width: number, height: number)`
 
 ### WindowSetMaxSize
 
@@ -124,7 +124,7 @@ Go: `WindowSetMinSize(ctx context.Context, width int, height int)`<br/> JS: `Win
 
 サイズを`0,0`に設定すると、サイズの制約が無効化されます。
 
-Go: `WindowSetMaxSize(ctx context.Context, width int, height int)`<br/> JS: `WindowSetMaxSize(size: Size)`
+Go: `WindowSetMaxSize(ctx context.Context, width int, height int)`<br/> JS: `WindowSetMaxSize(width: number, height: number)`
 
 ### WindowSetAlwaysOnTop
 
@@ -136,7 +136,7 @@ Go: `WindowSetAlwaysOnTop(ctx context.Context, b bool)`<br/> JS: `WindowSetAlway
 
 現在ウィンドウが表示されているモニターに対する、相対的なウィンドウ位置を設定します。
 
-Go: `WindowSetPosition(ctx context.Context, x int, y int)`<br/> JS: `WindowSetPosition(position: Position)`
+Go: `WindowSetPosition(ctx context.Context, x int, y int)`<br/> JS: `WindowSetPosition(x: number, y: number)`
 
 ### WindowGetPosition
 
